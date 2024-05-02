@@ -16,15 +16,15 @@ The empty spot will be represented by a 0. When determining what moves are possi
 Your program should implement two search algorithms to solve the eight-puzzle. One of those algorithms must be an uninformed search algorithm (BFS, DFS, or IDS); the other must be an informed search algorithm (best-first or A*).
 When completed, your program should do the following:
 
-[X]Print a welcome message and inform the user what the program is doing.<br>
-[X]Prompt the user to enter a file name containing an eight-puzzle that you wish to solve. This
+- Print a welcome message and inform the user what the program is doing.<br>
+- Prompt the user to enter a file name containing an eight-puzzle that you wish to solve. This
 file will contain a 3x3 grid of digits. If the file does not load properly, print an error message
 and end the program.<br>
-[X]Print the initial state of the puzzle.<br>
-[X]Prompt the user to select which algorithm they wish to run on this puzzle. If you are
+- Print the initial state of the puzzle.<br>
+- Prompt the user to select which algorithm they wish to run on this puzzle. If you are
 implementing DFS, also prompt the user for a depth limit.<br>
-[X]Run the selected algorithm on the initial state.<br>
-[X]When the algorithm is finished, the program should print the following information:<br>
+- Run the selected algorithm on the initial state.<br>
+- When the algorithm is finished, the program should print the following information:<br>
   - Print all the states in the path from the start state to the goal state.
   - Print the length of that path (the number of moves required to solve the puzzle).
   - Print the total number of nodes expanded while doing the search.
